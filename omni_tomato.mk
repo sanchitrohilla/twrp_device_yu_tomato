@@ -34,7 +34,8 @@ PRODUCT_PACKAGES += charger charger_res_images
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dt.img:dt.img \
-    $(LOCAL_PATH)/kernel:kernel
+    $(LOCAL_PATH)/kernel:kernel \
+    $(LOCAL_PATH)/fstab.qcom:root/fstab.qcom
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tomato
